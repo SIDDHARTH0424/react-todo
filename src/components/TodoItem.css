@@ -1,0 +1,6 @@
+.todo-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.6rem 0; border-top: 1px solid #e2e8f0; }
+.todo-item span { flex: 1; word-break: break-word; }
+.todo-item.completed span { text-decoration: line-through; color: #94a3b8; }
+.todo-item input[type="checkbox"] { width: 1.1rem; height: 1.1rem; }
+.delete { background: #dc2626; padding: 0.3rem 0.6rem; font-size: 0.85rem; }
+.delete:hover { background: #b91c1c; }
