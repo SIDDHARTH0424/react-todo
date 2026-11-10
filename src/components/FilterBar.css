@@ -1,0 +1,4 @@
+.filters { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.filter { flex: 1; background: #e2e8f0; color: #0f172a; padding: 0.4rem; }
+.filter:hover { background: #cbd5e1; }
+.filter.active { background: #2563eb; color: #fff; }
